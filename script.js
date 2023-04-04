@@ -12,7 +12,7 @@ const generatePalette = () => {
 
         // creating li element and inserting it to the container 
         const color = document.createElement("li");
-        color.classList.add(".color");
+        color.classList.add("color");
         color.innerHTML = `<div class="rect-box" style="background: ${randomHex}"></div>
                             <span class="hex-value">${randomHex}</span>`;
         // adding click event to copy current li color
